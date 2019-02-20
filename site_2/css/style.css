@@ -394,7 +394,7 @@ body {
   font-weight: normal;
   line-height: 26px;
   font-style: normal;
-  background-color: #fff;
+  background-color: #282828;
 }
 img {
   width: 100%;
@@ -550,6 +550,7 @@ img {
 .page-main {
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 .button {
   background-color: #8824cd;

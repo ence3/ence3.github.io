@@ -827,6 +827,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 63px;
+  list-style: none;
 }
 .team-list__border {
   width: 218px;
@@ -840,7 +841,7 @@ img {
   margin-bottom: -10px;
 }
 .team-list__item {
-  margin-right: 19px;
+  margin-right: 20px;
 }
 .team-list__name {
   font-family: 'Roboto', sans-serif;

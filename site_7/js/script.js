@@ -40,9 +40,15 @@ window.addEventListener ('DOMContentLoaded', function() {
         moreSeconds = document.getElementsByClassName('description-btn')[1],
         moreThird = document.getElementsByClassName('description-btn')[2],
         moreFourth = document.getElementsByClassName('description-btn')[3],
+        more = document.querySelector('.more'),
         contact = document.querySelector('.more'),
         overlay = document.querySelector('.overlay'),
         close = document.querySelector('.popup-close');
+
+    more.addEventListener('click', function () {
+            overlay.style.display = 'block';
+            document.body.style.overflow ='hidden';
+    });
 
     moreFirst.addEventListener('click', function () {
         overlay.style.display = 'block';

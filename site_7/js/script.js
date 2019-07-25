@@ -36,15 +36,32 @@ window.addEventListener ('DOMContentLoaded', function() {
 
     //Modal
 
-    let more = document.querySelector('.description-btn'),
+    let moreFirst = document.getElementsByClassName('description-btn')[0],
+        moreSeconds = document.getElementsByClassName('description-btn')[1],
+        moreThird = document.getElementsByClassName('description-btn')[2],
+        moreFourth = document.getElementsByClassName('description-btn')[3],
         contact = document.querySelector('.more'),
         overlay = document.querySelector('.overlay'),
         close = document.querySelector('.popup-close');
 
-    more.addEventListener('click', function () {
+    moreFirst.addEventListener('click', function () {
         overlay.style.display = 'block';
         document.body.style.overflow ='hidden';
     });
+
+    moreSeconds.addEventListener('click', function () {
+        overlay.style.display = 'block';
+        document.body.style.overflow ='hidden';
+    });
+    moreThird.addEventListener('click', function () {
+        overlay.style.display = 'block';
+        document.body.style.overflow ='hidden';
+    });
+    moreFourth.addEventListener('click', function () {
+        overlay.style.display = 'block';
+        document.body.style.overflow ='hidden';
+    });
+
 
     close.addEventListener('click', function() {
         overlay.style.display = 'none';

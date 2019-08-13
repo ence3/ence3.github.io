@@ -1,0 +1,130 @@
+body {
+    min-width: 800px;
+    height: 600px;
+    background-color: #f3f6f9;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.caclulator {
+    width: 230px;
+    height: 318px;
+    margin: auto;
+    margin-top: 55px;
+    box-shadow: 0px 25px 30px 0px rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+}
+
+.screen {
+    width: 200px;
+    height: 80px;
+    background: rgb(28, 18, 52);
+    color: white;
+    border: none;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+}
+
+.screen:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+.btn-grey {
+    width: 57px;
+    height: 47px;
+    background: #ffffff;
+    font-size: 23px;
+    border: none;
+    color: #342f69;
+    border-right: 1px solid #f4f5f6;
+    border-bottom: 1px solid #f4f5f6;
+}
+
+.btn-grey:focus {
+    outline: none;
+}
+
+.btn-grey:active {
+    background: #f1f4f7;;
+}
+
+.btn-orange {
+    width: 59px;
+    height: 47px;
+    font-size: 23px;
+    background: #f79439;
+    border: none;
+    border-bottom: 1px solid #e98900;
+    color: #fff; 
+}
+
+.btn-orange:focus {
+    outline: none;
+}
+
+.btn-orange:active {
+    background: #e98900;
+}
+
+.btn-bottom__grey {
+    width: 57px;
+    height: 48px;
+    background: #fff;
+    font-size: 23px;
+    border: none;
+    border-right: 1px solid #f4f5f6;
+    color: #342f69;
+}
+
+.btn-bottom__grey:focus {
+    outline: none;
+}
+
+.btn-bottom__grey:active {
+    background: #f1f4f7;
+}
+
+
+.btn-bottom__orange {
+    width: 59px;
+    height: 48px;
+    font-size: 23px;
+    background: #f79439;
+    border: none;
+    color: #fff; 
+    border-bottom-right-radius: 5px; 
+    
+}
+
+.btn-bottom__orange:focus {
+    outline: none;
+}
+
+.btn-bottom__orange:active {
+    background: #e98900;
+}
+
+.btn-null {
+    width: 114px;
+    border-bottom-left-radius: 5px; 
+}
+
+.btn-clear {
+    width: 114px;
+}
+
+.btn-back {
+    width: 57px;
+}

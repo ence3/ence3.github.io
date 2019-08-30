@@ -9,8 +9,8 @@ body {
 }
 
 .caclulator {
-    width: 230px;
-    height: 318px;
+    width: 460px;
+    height: 634px;
     margin: auto;
     margin-top: 55px;
     box-shadow: 0px 25px 30px 0px rgba(0, 0, 0, 0.41);
@@ -18,12 +18,12 @@ body {
 }
 
 .screen {
-    width: 200px;
-    height: 80px;
+    width: 430px;
+    height: 160px;
     background: rgb(28, 18, 52);
     color: white;
     border: none;
-    font-size: 35px;
+    font-size: 45px;
     padding-left: 20px;
     padding-right: 10px;
     border-top-left-radius: 5px;
@@ -42,8 +42,8 @@ body {
 }
 
 .btn-grey {
-    width: 57px;
-    height: 47px;
+    width: 114px;
+    height: 94px;
     background: #ffffff;
     font-size: 23px;
     border: none;
@@ -61,8 +61,8 @@ body {
 }
 
 .btn-orange {
-    width: 59px;
-    height: 47px;
+    width: 118px;
+    height: 94px;
     font-size: 23px;
     background: #f79439;
     border: none;
@@ -79,8 +79,8 @@ body {
 }
 
 .btn-bottom__grey {
-    width: 57px;
-    height: 48px;
+    width: 114px;
+    height: 96px;
     background: #fff;
     font-size: 23px;
     border: none;
@@ -98,8 +98,8 @@ body {
 
 
 .btn-bottom__orange {
-    width: 59px;
-    height: 48px;
+    width: 118px;
+    height: 96px;
     font-size: 23px;
     background: #f79439;
     border: none;
@@ -117,14 +117,14 @@ body {
 }
 
 .btn-null {
-    width: 114px;
+    width: 228px;
     border-bottom-left-radius: 5px; 
 }
 
 .btn-clear {
-    width: 114px;
+    width: 228px;
 }
 
 .btn-back {
-    width: 57px;
+    width: 114px;
 }

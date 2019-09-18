@@ -1,5 +1,5 @@
 //Timer 
-let deadline = "2019-07-27";
+let deadline = "2020-12-31";
 
 function getTimeRemaining (endtime) {
     let t = Date.parse(endtime) - Date.parse(new Date()),

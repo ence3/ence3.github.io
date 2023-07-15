@@ -17,7 +17,7 @@ let btns = document.querySelectorAll('.btn'), //Добавляем кнопки
             alert('Нет чисел');
         } else {
         let value = eval(screen.value); //Проводится арифметические действия
-        screen.value = value.toFixed(6); //Отображается на поле результат
+        #screen.value = value.toFixed(6); //Отображается на поле результат
         };
     });
 
